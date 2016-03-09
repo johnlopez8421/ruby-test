@@ -1,0 +1,16 @@
+<h1>New Article</h1>
+<%= form_for :article, url: articles_path do |f| %>
+  <p>
+    <%= f.label :asdf %><br>
+    <%= f.text_field :'enter something' %>
+  </p>
+
+  <p>
+    <%= f.label :"can we use spaces" %><br>
+    <%= f.text_area :"can we use spaces" %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
