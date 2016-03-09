@@ -11,6 +11,9 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+#JRL ignore docs directory
+/doc/*
+
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
